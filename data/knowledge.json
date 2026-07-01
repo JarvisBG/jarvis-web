@@ -1,0 +1,197 @@
+[
+  {
+    "intention": "imp_file",
+    "mots_cles": "imprimante attente file bloque lance pas document sort pas",
+    "reponse": "🖨️ Impression bloquée :\n1. En bas à droite de l'écran (vers l'heure), faites un clic droit sur l'icône de petite imprimante.\n2. Ouvrez la file d'attente.\n3. Cliquez sur 'Document' puis 'Annuler' pour les fichiers bloqués.\n4. Relancez votre impression proprement."
+  },
+  {
+    "intention": "akwaprint_code",
+    "mots_cles": "akwaprint code oublié perdu printer code pin connait pas tableau de bord",
+    "reponse": "🖨️ Code AkwaPrint oublié :\n1. Ouvrez votre navigateur web.\n2. Tapez l'adresse : https://10.11.1.58:9192/\n3. Connectez-vous avec vos identifiants Windows.\n4. Votre code 'Printer Code' (PIN) sera affiché sur le tableau de bord."
+  },
+  {
+    "intention": "akwaprint_install",
+    "mots_cles": "akwaprint invisible apparait pas nouveau pc installer choix ajouter",
+    "reponse": "🖨️ Installer AkwaPrint :\n1. Sur votre clavier, tapez simultanément 'Windows + R'.\n2. Dans la petite fenêtre, tapez exactement : \\\\10.11.1.58 puis Entrée.\n3. Dans la liste qui s'ouvre, double-cliquez sur 'AKWAPrint'. L'installation se fera toute seule."
+  },
+  {
+    "intention": "akwaprint_bug",
+    "mots_cles": "akwaprint bug document sort pas effacer supprimer reinstalle erreur",
+    "reponse": "🖨️ Bug AkwaPrint (Réinstallation) :\n1. Allez dans Menu Démarrer > Imprimantes et scanners.\n2. Cliquez sur AkwaPrint puis sur 'Supprimer'.\n3. Réinstallez-la en faisant 'Windows + R', tapez \\\\10.11.1.58 et double-cliquez sur AkwaPrint."
+  },
+  {
+    "intention": "imp_qualite",
+    "mots_cles": "imprimante qualité encre tache bande pale noir couleur cartouche toner",
+    "reponse": "🖨️ Qualité d'impression médiocre :\nSi vos feuilles sortent avec des taches ou très pâles, c'est généralement le Toner (cartouche) qui est vide ou défectueux. Veuillez secouer doucement le toner de gauche à droite. Si le problème persiste, demandez un remplacement à la logistique."
+  },
+  {
+    "intention": "res_panne",
+    "mots_cles": "internet reseau panne wifi connexion deconnecte hors ligne web",
+    "reponse": "🌐 Panne Réseau Générale :\n1. Vérifiez que le câble Ethernet est bien clipsé derrière votre PC (un 'clic' doit se faire entendre) et/ou aussi derrière votre téléphone.\n2. Regardez en bas à droite de votre écran si une icône 'Globe' barré apparaît.\n3. Redémarrez le PC. Si le problème persiste, ouvrez l'appli CISCO SECURE CLIENT et reconnextez avec votre profil windows si demandé."
+  },
+  {
+    "intention": "res_wifi",
+    "mots_cles": "wifi agence indisponible connecte pas sans fil reseau mot de passe",
+    "reponse": "📶 Problème Wi-Fi :\n1. Vérifiez que le mode Avion n'est pas activé par erreur (icône avion vers l'horloge).\n2. Assurez-vous d'être connecté au nom du wifi.\n3. Si la connexion échoue, 'Oubliez' le réseau dans les paramètres et reconnectez-vous."
+  },
+  {
+    "intention": "res_cable",
+    "mots_cles": "cable reseau debranche ethernet reconnu croix rouge jaune",
+    "reponse": "🔌 Câble réseau non reconnu :\nDébranchez le câble réseau de votre ordinateur, soufflez doucement sur l'embout pour enlever la poussière, et rebranchez-le fermement. S'il n'y a toujours pas de lumière clignotante à l'endroit où le câble est branché, le câble est peut-être défectueux."
+  },
+  {
+    "intention": "res_proxy",
+    "mots_cles": "proxy erreur pare feu firewall bloque page securite acces refuse",
+    "reponse": "🛡️ Erreur Proxy / Site bloqué :\nCertains sites sont bloqués par la sécurité d'Ecobank. S'il s'agit d'un site professionnel légitime :\n1. Videz le cache de votre navigateur.\n2. Si la page affiche toujours 'Access Denied', il faudra soumettre une demande formelle pour débloquer cette URL."
+  },
+  {
+    "intention": "res_lenteur",
+    "mots_cles": "lenteur reseau lent lag charge rame connexion debit",
+    "reponse": "🐢 Lenteur Réseau :\nSi les applications bancaires ou internet rament :\n1. Fermez les applications lourdes en arrière-plan.\n2. Le problème vient souvent de la ligne de l'agence."
+  },
+  {
+    "intention": "sec_mdp_win",
+    "mots_cles": "mot de passe session windows bloqué verrouillé expiré oublié reinitialiser reset",
+    "reponse": "🔑 Mot de passe Windows :\nSi votre compte est verrouillé ou que vous avez totalement oublié votre mot de passe, contactez l'IT."
+  },
+  {
+    "intention": "sec_token_mfa",
+    "mots_cles": "token mfa authenticator pin code smartphone enroll",
+    "reponse": "🔐 Création Token MFA (Authenticator) :\n1. Installez Microsoft Authenticator sur votre smartphone.\n2. Sur votre PC, allez sur : https://10.8.144.109/mfaapp/auth\n3. Connectez-vous avec vos identifiants Windows.\n4. Cliquez sur 'ENROLL'.\n5. Ouvrez l'appli sur votre téléphone et scannez le QR Code."
+  },
+  {
+    "intention": "sec_verrouillage",
+    "mots_cles": "session verrouille automatiquement veille raccourci bloquer",
+    "reponse": "🔒 Session verrouillée :\nPour des raisons de sécurité, votre session se verrouille automatiquement après quelques minutes d'inactivité. Prenez le réflexe de la verrouiller vous-même en quittant votre poste en tapant 'Windows + L'."
+  },
+  {
+    "intention": "sec_usb",
+    "mots_cles": "usb cle disque dur bloque securite bitlocker non reconnu lu",
+    "reponse": "💾 Clé USB bloquée :\nLes clés USB personnelles sont bloquées par défaut par la politique de sécurité d'Ecobank pour éviter les virus. Utilisez le réseau partagé ou OneDrive pour transférer des fichiers professionnels."
+  },
+  {
+    "intention": "ms_outlook_off",
+    "mots_cles": "outlook teams courriel messagerie deconnecte messages chargent pas croix",
+    "reponse": "📧 Outlook / Teams déconnecté :\n1. Rassurez-vous d'entre en ligne. \n2 Ouvrez l'application et connectez vous à votre profil ecobank.\n3. Un OTP (One Time Password) à 6 chiffres vous sera envoyé sur votre numéro de téléphone. Tapez le et patientez"
+  },
+  {
+    "intention": "ms_outlook_plein",
+    "mots_cles": "outlook plein archive boite reception espace limite quota",
+    "reponse": "📧 Outlook plein :\nSi votre boîte mail est pleine, vous ne pourrez plus envoyer ni recevoir. \n1. Videz les 'Éléments supprimés'.\n2. Triez vos mails par taille et supprimez ceux avec de grosses pièces jointes inutiles.\n3. Archivez les vieux mails sur votre disque local."
+  },
+  {
+    "intention": "ms_teams_son",
+    "mots_cles": "teams son micro entend pas parler reunion appel",
+    "reponse": "🎧 Pas de son sur Teams :\n1. Dans Teams, cliquez sur les 3 petits points en haut > Paramètres > Périphériques.\n2. Sous 'Haut-parleur' et 'Microphone', assurez-vous que votre casque (ou haut-parleur PC) est bien sélectionné, et non un équipement fantôme."
+  },
+  {
+    "intention": "ms_tel_bloque",
+    "mots_cles": "telephone mobile mails messagerie smartphone synchronisation ios android code",
+    "reponse": "📱 Mails bloqués sur Smartphone :\nAstuce très courante : Modifiez simplement le code de déverrouillage (PIN ou Schéma) de votre téléphone. Le système professionnel détectera cette mise à jour de sécurité et autorisera à nouveau la synchronisation de vos messages."
+  },
+  {
+    "intention": "ms_excel_lent",
+    "mots_cles": "excel tres lent fige rame gros fichier calcul plante",
+    "reponse": "📊 Excel très lent :\n1. Si le fichier est gros, c'est normal. Ne cliquez pas partout.\n2. Allez dans Formules > Options de calcul > et choisissez 'Manuel'. Le fichier arrêtera de recalculer à chaque fois que vous tapez un chiffre. (N'oubliez pas d'appuyer sur F9 pour calculer à la fin)."
+  },
+  {
+    "intention": "ms_onedrive",
+    "mots_cles": "onedrive synchronise plus nuage gris croix rouge bloque",
+    "reponse": "☁️ OneDrive bloqué :\n1. En bas à droite de l'écran, cliquez sur le petit nuage bleu.\n2. Cliquez sur l'engrenage (Paramètres) > Mettre en pause la synchronisation > Quitter OneDrive.\n3. Rouvrez OneDrive depuis le menu Démarrer pour forcer la reconnexion."
+  },
+  {
+    "intention": "hw_ecran_noir",
+    "mots_cles": "ecran noir affichage moniteur allume pas veille no signal",
+    "reponse": "🖥️ Écran noir :\n1. Vérifiez que la petite lumière de l'écran est allumée. Sinon, appuyez sur le bouton sous l'écran.\n2. Assurez-vous que le câble vidéo (bleu, blanc, noir ou HDMI) est bien enfoncé derrière l'écran ET derrière la tour du PC.\n3. Bougez la souris."
+  },
+  {
+    "intention": "hw_pc_fige",
+    "mots_cles": "fige bloque repond plus ecran souris clavier ctrl alt suppr gel",
+    "reponse": "🧊 PC complètement figé :\n1. Appuyez sur Ctrl + Maj + Echap. Si le gestionnaire des tâches s'ouvre, fermez l'application qui 'Ne répond pas'.\n2. Si rien ne bouge, restez appuyé 10 secondes sur le bouton d'allumage physique du PC pour forcer l'extinction, puis rallumez-le."
+  },
+  {
+    "intention": "hw_clavier",
+    "mots_cles": "clavier souris usb sans fil pile repond pas bouge pas frappe",
+    "reponse": "⌨️ Clavier ou Souris inactif :\n1. Débranchez la prise USB et rebranchez-la sur un AUTRE port USB.\n2. S'il s'agit de matériel sans fil, vérifiez que le petit bouton en dessous est sur 'ON' et changez les piles."
+  },
+  {
+    "intention": "hw_son",
+    "mots_cles": "son audio muet ecouteurs casque haut parleur volume entend musique",
+    "reponse": "🔊 Aucun son ne sort :\n1. En bas à droite vers l'heure, cliquez sur l'icône Haut-Parleur.\n2. Vérifiez qu'il n'y a pas une croix à côté du volume.\n3. Cliquez sur la petite flèche au-dessus du volume pour choisir un autre périphérique de sortie (casque ou écran)."
+  },
+  {
+    "intention": "hw_pc_mort",
+    "mots_cles": "pc allume pas mort led bouton demarrage alimentation rien",
+    "reponse": "🔌 PC qui ne s'allume pas du tout :\n1. Vérifiez que le câble d'alimentation noir est bien enfoncé derrière le PC et dans la multiprise.\n2. Vérifiez que la multiprise est allumée.\n3. Si la prise murale semble morte, prévenez les services généraux."
+  },
+  {
+    "intention": "hw_double_ecran",
+    "mots_cles": "double ecran second detecte pas affichage etendre dupliquer deuxieme",
+    "reponse": "🖥️ Double écran non détecté :\n1. Faites un clic droit sur un endroit vide du bureau > Paramètres d'affichage.\n2. Cliquez sur 'Détecter'.\n3. Si détecté, allez plus bas dans 'Plusieurs affichages' et choisissez 'Étendre ces affichages'."
+  },
+  {
+    "intention": "hw_cache_nav",
+    "mots_cles": "page web erreur cache historique affichage navigateur chrome edge",
+    "reponse": "🧹 Vider le cache du navigateur :\nSolution magique pour 90% des bugs d'affichage web :\n1. Dans votre navigateur, tapez : Ctrl + Maj + Suppr.\n2. Cochez uniquement 'Images et fichiers en cache'.\n3. Cliquez sur 'Effacer les données'.\n4. Actualisez votre page (F5)."
+  },
+  {
+    "intention": "qms_enregistrer",
+    "mots_cles": "qms tablette enregistrer ticket bsm client nouveau",
+    "reponse": "🎟️ QMS - Enregistrer un ticket (Tablette) :\n1. Assurez-vous que la tablette est connectée au Wi-Fi.\n2. Allez sur le navigateur à l'adresse : bsm.ecobank.com\n3. Mot de passe de la page : S11\n4. Cliquez sur 'New Ticket'.\n5. Mot de passe ticket : S11\n6. Sélectionnez le service souhaité."
+  },
+  {
+    "intention": "qms_tele",
+    "mots_cles": "qms tele affichage queue ecran salle file hdmi",
+    "reponse": "📺 QMS - Affichage sur la Télévision :\n1. Assurez-vous que le PC 'serveur' QMS est allumé et connecté au réseau.\n2. Sur ce PC, allez sur bsm.ecobank.com (Mdp: S11).\n3. Cliquez sur 'Queue'.\n4. Vérifiez que le câble vidéo (HDMI/VGA) relie bien ce PC à la Télévision de l'agence."
+  },
+  {
+    "intention": "qms_appeler",
+    "mots_cles": "qms teller guichet appeler suivant bsm",
+    "reponse": "🗣️ QMS - Appeler un client (Guichetier) :\n1. Sur votre PC de travail, ouvrez votre navigateur web.\n2. Allez sur bsm.ecobank.com (Mot de passe d'accès : S11).\n3. Cliquez sur 'Teller'.\n4. Connectez-vous avec vos identifiants pour appeler le client suivant."
+  },
+  {
+    "intention": "qms_wifi",
+    "mots_cles": "qms tablette wifi reseau connexion deconnecte",
+    "reponse": "📶 QMS - Tablette déconnectée :\nSi la tablette n'affiche plus la page BSM, vérifiez dans les paramètres Android/iOS que le Wi-Fi de l'agence est bien connecté. Redémarrez le navigateur web de la tablette."
+  },
+  {
+    "intention": "prog_flexcube",
+    "mots_cles": "flexcube lien application logiciel plateforme adresse url fcr",
+    "reponse": "🔗 Accès Flexcube :\nVoici le lien d'accès à l'environnement Flexcube :\n👉 [https://fc12-hostappx86-5/FCUBSCS2_LIVE/LoginServlet]\n\nEn cas d'erreur de connexion, vérifiez que vous ne tapez pas de majuscules par erreur dans votre mot de passe."
+  },
+  {
+    "intention": "prog_bankcollect",
+    "mots_cles": "bankcollect bank collect lien application logiciel adresse url",
+    "reponse": "🔗 Accès BankCollect :\nVoici le lien d'accès à BankCollect :\n👉 [https://payexpresslive/BankCollectGlobal/Login.aspx]\n\nSi la page reste blanche, essayez de vider le cache de votre navigateur (Ctrl + Maj + Suppr)."
+  },
+  {
+    "intention": "prog_boe",
+    "mots_cles": "boe branch operations environment lien application url",
+    "reponse": "🔗 Accès BOE :\nVoici le lien d'accès à la plateforme BOE :\n👉 [bireporting43prod.ecobank.com/BOE/BI]\n\nAssurez-vous d'être bien connecté au réseau sécurisé de l'agence pour y accéder."
+  },
+  {
+    "intention": "prog_live",
+    "mots_cles": "live application lien plateforme adresse url direct",
+    "reponse": "🔗 Accès LIVE :\nVoici le lien d'accès à l'application LIVE :\n👉 [bireporting-live.ecobank.com/BOE/BI]\n\nSi le site est inaccessible, vérifiez que votre câble réseau est bien branché."
+  },
+  {
+    "intention": "bot_salut",
+    "mots_cles": "bonjour salut hello coucou hey",
+    "reponse": "Bonjour ! Je suis J.A.R.V.I.S, l'assistant IT virtuel d'Ecobank. Décrivez-moi votre problème technique (imprimante, logiciel, réseau...) et je vous donnerai la procédure."
+  },
+  {
+    "intention": "bot_createur",
+    "mots_cles": "createur concepteur invente developpeur nom qui es tu ton createur admin",
+    "reponse": "🤖 Je suis J.A.R.V.I.S (Just A Rather Very Intelligent System). J'ai été conçu et programmé par Jarvis. Vous pouvez le contacter directement au +237 698 376 108."
+  },
+  {
+    "intention": "bot_merci",
+    "mots_cles": "merci super top genial a plus au revoir",
+    "reponse": "Je vous en prie ! C'est un plaisir de vous aider. N'hésitez pas si vous avez un autre souci informatique."
+  },
+  {
+    "intention": "bot_aide",
+    "mots_cles": "aide que sais tu faire comment probleme aide moi",
+    "reponse": "Je suis capable de vous aider sur plusieurs sujets : Imprimantes (Akwaprint...), Réseau, Mots de passe, Outils Microsoft (Outlook, Teams), Matériel, système QMS..."
+  }
+]
