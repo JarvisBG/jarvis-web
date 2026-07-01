@@ -145,12 +145,7 @@ const QUICK_ACTIONS = [
   { icon: Wifi, label: "Problème Wi-Fi", hint: "Réseau" },
 ];
 
-const INITIAL_HISTORY = [
-  { id: 1, title: "Blocage imprimante AkwaPrint" },
-  { id: 2, title: "Réinitialisation mot de passe AD" },
-  { id: 3, title: "Lenteur réseau agence Plateau" },
-  { id: 4, title: "Installation poste nouvel arrivant" },
-];
+const INITIAL_HISTORY = [];
 
 export default function JarvisChat() {
   const [messages, setMessages] = useState([]);
@@ -362,7 +357,7 @@ export default function JarvisChat() {
                   </button>
                   <button
                     onClick={(e) => deleteHistory(e, h.id)}
-                    className="absolute right-2 opacity-0 group-hover/item:opacity-100 p-1 rounded-md hover:bg-white/10 text-slate-500 hover:text-red-400 transition-all"
+                    className="absolute right-2 opacity-100 md:opacity-0 md:group-hover/item:opacity-100 p-1 rounded-md hover:bg-white/10 text-slate-500 hover:text-red-400 transition-all"
                   >
                     <Trash2 className="w-3.5 h-3.5" />
                   </button>
@@ -453,7 +448,7 @@ export default function JarvisChat() {
           </div>
         </main>
 
-        <footer className="px-4 md:px-8 pb-6 pt-2 relative z-10">
+        <footer className="px-4 md:px-8 pb-12 md:pb-6 pt-2 relative z-10">
           <div className="max-w-2xl mx-auto">
             {!isEmpty && (
               <div className="flex gap-2 mb-3 overflow-x-auto pb-1 [&::-webkit-scrollbar]:hidden">
