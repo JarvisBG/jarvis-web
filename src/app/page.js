@@ -168,6 +168,13 @@ export default function JarvisChat() {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, isTyping]);
 
+  // Sync current messages to the active history item
+  useEffect(() => {
+    if (activeHistory !== null) {
+      setHistoryList(prev => prev.map(h => h.id === activeHistory ? { ...h, messages } : h));
+    }
+  }, [messages, activeHistory]);
+
   function playBeep() {
     if (!soundEnabled) return;
     try {
@@ -335,7 +342,11 @@ export default function JarvisChat() {
               return (
                 <div key={h.id} className="relative group/item flex items-center">
                   <button
-                    onClick={() => { setActiveHistory(h.id); setSidebarOpen(false); }}
+                    onClick={() => { 
+                      setActiveHistory(h.id);
+                      setMessages(h.messages || []);
+                      setSidebarOpen(false); 
+                    }}
                     className={`group w-full relative flex items-center gap-2.5 rounded-lg px-2.5 py-2.5 text-left transition-all duration-200 pr-8 ${
                       isActive
                         ? `${t.activeBg} border ${t.activeBorder}`
