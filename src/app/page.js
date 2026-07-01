@@ -17,6 +17,7 @@ import {
   Trash2,
   Menu,
   X,
+  Ticket,
 } from "lucide-react";
 
 // --- THEMES CONFIG ---
@@ -143,6 +144,7 @@ const QUICK_ACTIONS = [
   { icon: Printer, label: "Débloquer AkwaPrint", hint: "Imprimante" },
   { icon: KeyRound, label: "Réinitialiser mot de passe", hint: "Accès" },
   { icon: Wifi, label: "Problème Wi-Fi", hint: "Réseau" },
+  { icon: Ticket, label: "Enregistrer ticket QMS", hint: "Support" },
 ];
 
 const INITIAL_HISTORY = [];
