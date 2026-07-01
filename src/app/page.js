@@ -143,7 +143,7 @@ const THEMES = {
 const QUICK_ACTIONS = [
   { icon: Printer, label: "Débloquer AkwaPrint", hint: "Imprimante" },
   { icon: KeyRound, label: "Réinitialiser mot de passe", hint: "Accès" },
-  { icon: Wifi, label: "Problème Wi-Fi", hint: "Réseau" },
+  { icon: Wifi, label: "Problème Réseau", hint: "Réseau" },
   { icon: Ticket, label: "Enregistrer ticket QMS", hint: "Support" },
 ];
 
