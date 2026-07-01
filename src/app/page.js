@@ -152,7 +152,7 @@ export default function JarvisChat() {
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [historyList, setHistoryList] = useState(INITIAL_HISTORY);
-  const [activeHistory, setActiveHistory] = useState(1);
+  const [activeHistory, setActiveHistory] = useState(null);
   const scrollRef = useRef(null);
 
   // Layout & Settings States
